@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    width: 90%;
+    font-family: 'Overpass Mono', monospace;
+    background-color: #65737e;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    clear: right;
+    margin-top: 5%;
+}
+
+footer {
+    margin: auto;
+    padding-left: 50%;
+}

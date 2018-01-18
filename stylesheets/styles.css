@@ -1,0 +1,57 @@
+body {
+  margin: auto;
+  width: 90%;
+  font-family: 'Overpass Mono', monospace;
+  background-color: #65737e;
+  color: #ffffff;
+}
+
+img{
+  float:left;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  clear: right;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+div {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  padding-bottom: 1.5%;
+  color: #eaf651;
+}
+
+nav {
+  float: left;
+  width: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h2, ol,ul{
+  padding-left: 18%;
+}
+
+li {
+  color: #bef7d8;
+  padding-left: 5%;
+}
+
+a{
+  text-decoration: none;
+  padding: 1.5%;
+}
+
+footer {
+    clear: left;
+    margin: auto;
+    padding-left: 50%;
+}
