@@ -8,57 +8,81 @@
     <!--add in link to Normalize CSS-->
     <link href="https://necolas.github.io/normalize.css/7.0.0/normalize.css" rel="stylesheet" />
     <!--link to my css style sheet-->
-    <link href="studio1/styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <!--add link to P5 here-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+    <!--link to font styles-->
+    <link href="https://fonts.googleapis.com/css?family=Cousine|Fira+Mono" rel="stylesheet">
     <!--add title-->
     <title>Be A Playwright</title>
-    <!--link to font styles-->
-    <link href="https://fonts.googleapis.com/css?family=Overpass+Mono:600" rel="stylesheet">
     <!--END head-->
 </head>
 
 <!--start body-->
 
 <body>
-    <!--start header-->
+    <!--header-->
     <header>
-        <!--<img src="images/type-self-portrait.png" alt="type person" width="100">-->
-        <h1>Be A Playwright<br/>write and direct</h1>
-
-        <div>
-            <section id="promptBook">
-                <p>this is the prompt area</p>
-
-                <div>
-                    <label for="character1">Character 1</label>
-                    <input type="text" name="character1" required>
-                </div>
-
-                <div>
-                    <label for="character2">Character 2</label>
-                    <input type="text" name="character2" required>
-                </div>
-
-                <div>
-                    <label for="character3">Character 3</label>
-                    <input type="text" name="character3" required>
-                </div>
-
-                <div>
-                    <input type="reset" value="reset" />
-                    <input type="submit" value="submit" />
-                </div>
-
-            </section>
-
-            <section id="stage" height=100%>
-                <p>this is the response field</p>
-
-
-            </section>
-
-        </div>
-
-        <!--END header-->
+        <h1>Be a Playwright: Create Your Own Script</h1>
     </header>
+
+    <form name="f">
+        <section id="inputs">
+            <div>
+                <label for="radio">Setting</label><br>
+                <input type="radio" name="setting" value="codingClass"><label>Coding</label>
+                <br>
+                <input type="radio" name="setting" value="englishClass"><label>English</label>
+                <br>
+                <input type="radio" name="setting" value="mathClass"><label>Math</label>
+            </div>
+
+            <div>
+                <label for="character1">Name of Character 1:</label>
+                <input type="text" name="character1" required>
+            </div>
+
+            <div>
+                <label for="character2">Name of Character 2:</label>
+                <input type="text" name="character2" required>
+            </div>
+
+            <div>
+                <label for="teacher">Name of a Instructor:</label>
+                <input type="text" name="teacher" required>
+            </div>
+
+            <div>
+                <label for="radio">Grade</label><br>
+                <input type="radio" name="grade" value="A"><label>A</label>
+                <br>
+                <input type="radio" name="grade" value="B"><label>B</label>
+                <br>
+                <input type="radio" name="grade" value="C"><label>C</label>
+                <br>
+                <input type="radio" name="grade" value="D"><label>D</label>
+                <br>
+                <input type="radio" name="grade" value="F"><label>F</label>
+            </div>
+
+            <div>
+                <label for="exclamation">Exclamation</label>
+                <input type="text" name="exclamation" required>
+            </div>
+
+            <div>
+                <input type="reset" value="Re-write" />
+                <input type="submit" value="Table Read" />
+            </div>
+        </section>
+    </form>
+
+    <section id="results">
+        <p id="myMsg"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+</footer>

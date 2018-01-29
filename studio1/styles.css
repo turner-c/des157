@@ -1,7 +1,62 @@
-#promptBook {
-  height: 100%;
+body {
+  background-color: #C2143B;
 }
 
-#response{
-  height: 100%;
+h1{
+  font-family: 'Cousine', monospace;
+  text-align: center;
+}
+
+#inputs{
+  font-family: 'Fira Mono', monospace;
+  background-image: url("images/notebook.png");
+}
+
+div{
+  padding-top: 2%;
+}
+
+input[type="text"] {
+  padding: 1%;
+  border: none; /*remove default*/
+  background-color: #A3E6E0;
+  color: #000000;
+}
+
+input[type="text"]:focus {
+  border-bottom: .5% #1591E5;
+  color: #C2143B;
+}
+
+input[type="reset"], input[type="submit"] {
+  font-family: 'Fira Mono', monospace;
+  width: 20%;
+  margin: 2%;
+  padding: 1.5%;
+  border: none; /*remove default*/
+  border-radius: 1.5%;
+  border-bottom: 1% orange solid;
+  background-color: antiquewhite;
+  color: #333;
+}
+
+section p {
+  width: 80%;
+  min-width: 700px;
+  margin-left: 12px;
+  padding: 24px;
+  border-radius: 11px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  background-color: purple;
+  color: antiquewhite;
+}
+
+.show{
+  display:block;
+}
+
+.hide{
+  display: none;
 }
