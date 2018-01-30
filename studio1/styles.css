@@ -1,70 +1,71 @@
 body {
-  background-color: #C2143B;
+    background-color: #C2143B;
 }
 
-
-h1{
-  font-family: 'Cousine', monospace;
-  text-align: center;
+h1 {
+    font-family: 'Cousine', monospace;
+    text-align: center;
 }
 
-#inputs{
-  font-family: 'Fira Mono', monospace;
-  background-image: url("images/notebook.png");
-  background-size: cover;
+#inputs {
+    font-family: 'Fira Mono', monospace;
+    background-image: url("images/notebook.png");
+    background-size: cover;
 }
 
-div{
-  padding-top: 2%;
+div {
+    padding-top: 2%;
 }
 
 input[type="text"] {
-  padding: 1%;
-  border: none; /*remove default*/
-  background-color: #A3E6E0;
-  color: #000000;
+    padding: 1%;
+    border: none;
+    /*remove default*/
+    background-color: #A3E6E0;
+    color: #000000;
 }
 
 input[type="text"]:focus {
-  border-bottom: .5% #1591E5;
-  color: #C2143B;
+    border-bottom: .5% #1591E5;
+    color: #C2143B;
 }
 
 input[type="reset"], input[type="submit"] {
-  font-family: 'Fira Mono', monospace;
-  width: 20%;
-  margin: 2%;
-  padding: 1.5%;
-  border: none; /*remove default*/
-  border-radius: 1.5%;
-  border-bottom: 1% orange solid;
-  background-color: antiquewhite;
-  color: #333;
+    font-family: 'Fira Mono', monospace;
+    width: 20%;
+    margin: 2%;
+    padding: 1.5%;
+    border: none;
+    /*remove default*/
+    border-radius: 1.5%;
+    border-bottom: 1% orange solid;
+    background-color: antiquewhite;
+    color: #333;
 }
 
 section p {
-  width: 80%;
-  min-width: 700px;
-  margin-left: 12px;
-  padding: 24px;
-  border-radius: 11px;
-  font-size: 20px;
-  text-align: center;
-  line-height: 28px;
-  color: #ffff;
-  font-family: 'Cousine', monospace;
-  background-image: url("images/chalkboard.png");
-  background-size: cover;
+    width: 80%;
+    min-width: 700px;
+    margin-left: 12px;
+    padding: 24px;
+    border-radius: 11px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    color: #ffff;
+    font-family: 'Cousine', monospace;
+    background-image: url("images/chalkboard.png");
+    background-size: cover;
 }
 
-footer{
-  position: fixed;
+footer {
+    position: fixed;
 }
 
-.show{
-  display:block;
+.show {
+    display: block;
 }
 
-.hide{
-  display: none;
+.hide {
+    display: none;
 }
