@@ -28,17 +28,12 @@ function processForm() {
   var exclamation =document.f.exclamation.value;
 
   myMsg.innerHTML =
-    "Setting: This scene takes place in " + setting + " class." + "<br>" +
-    "(<em>Enter" +character1 " obviously late for class. Out of breath, breathing heavily." +teacher +" gives" +character1 +" a look." +character1 +"sits by " + character2 +".</em>)" + "<br>" +
-    character2 + "<br>" +
-    "Why are you late " +character1 +". <br>" +
-    character1 + "<br>" +
-    "I couldn't find parking!<br>" +
-    teacher + "<br>" +
-    character1 + " because you were late today, your grade is now an " +grade +".<br>" +
-    character1 + "<br>" +
-    exclamation +  "<br>" +
-    "END SCENE"
+    "Setting: This scene takes place in " + setting + " class." + "<br> (<em>Enter " +character1 +
+    " obviously late for class. Out of breath, breathing heavily, " +teacher +" gives " +character1 +
+    " a look of disgust. " +character1 +" sits by " + character2 +".</em>) <br>" + character2 + "<br> Why are you late "
+    +character1 +". <br>" + character1 + "<br> I couldn't find parking!<br>" +teacher + "<br>" + character1 +
+    " because you were late today, your grade is now an " +grade +".<br>" +character1 + "<br>" + exclamation +
+    "<br> END SCENE"
   results.setAttribute("class","show");
 
   //prevent page from reloading

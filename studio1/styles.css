@@ -2,6 +2,7 @@ body {
   background-color: #C2143B;
 }
 
+
 h1{
   font-family: 'Cousine', monospace;
   text-align: center;
@@ -10,6 +11,7 @@ h1{
 #inputs{
   font-family: 'Fira Mono', monospace;
   background-image: url("images/notebook.png");
+  background-size: cover;
 }
 
 div{
@@ -49,8 +51,14 @@ section p {
   font-size: 20px;
   text-align: center;
   line-height: 28px;
-  background-color: purple;
-  color: antiquewhite;
+  color: #ffff;
+  font-family: 'Cousine', monospace;
+  background-image: url("images/chalkboard.png");
+  background-size: cover;
+}
+
+footer{
+  position: fixed;
 }
 
 .show{
