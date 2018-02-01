@@ -26,7 +26,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-bottom: .5% #1591E5;
+    border-bottom: #1591E5;
     color: #C2143B;
 }
 
@@ -38,7 +38,7 @@ input[type="reset"], input[type="submit"] {
     border: none;
     /*remove default*/
     border-radius: 1.5%;
-    border-bottom: 1% orange solid;
+    border-bottom: orange solid;
     background-color: antiquewhite;
     color: #333;
 }
@@ -52,7 +52,7 @@ section p {
     font-size: 20px;
     text-align: center;
     line-height: 28px;
-    color: #ffff;
+    color: #ffffff;
     font-family: 'Cousine', monospace;
     background-image: url("images/chalkboard.png");
     background-size: cover;
