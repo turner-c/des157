@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--START HEAD-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <!--Add a link to Normalize CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet" />
+    <!--link to my font styles-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700%7CCaveat+Brush%7CPermanent+Marker" rel="stylesheet">
+    <!--meta viewport information-->
+    <!--link to my css stylesheet-->
+    <link href="styles.css" rel="stylesheet" />
+    <!--Add Title-->
+    <title>Cameron's Bag Adventure</title>
+    <!--END HEAD-->
+</head>
+<!--START BODY-->
+
+<body>
+    <!--Add Header-->
+    <header>
+        <h1>Cameron's Bag Adventure</h1>
+    </header>
+
+    <button type="button" id="startButton" class="threed">Start Adventure</button>
+
+    <nav>
+        <!--cameron-->
+        <section id="cameron">
+            <h3>This is Cameron</h3>
+            <p>Hi I'm a crazy student! I carry a a lot of stuff in my bag to get me through the day.</p>
+            <img src="images/person.png" alt="person" height="300" id="person">
+            <h4 id="next">Continue Adventure</h4>
+        </section>
+        <!--bag-->
+
+        <section id="bag">
+            <h3>This is my Bag!</h3>
+            <p>Click on my bag to see what's inside!</p>
+            <img src="images/backpack.png" alt="mybackpack" height="400">
+        </section>
+        <!--items-->
+        <section id="items">
+
+            <h3>These are my items!</h3>
+
+            <ul>
+                <li> <img src="images/charger.png" alt="iPhone Charger" height="150" id="charger">
+                    <h4>My iPhone Charger</h4> </li>
+
+                <li><img src="images/glowtape.png" alt="glowtape" height="150" id="tape">
+                    <h4>A Roll of Glowtape</h4></li>
+
+                <li><img src="images/phone.png" alt="iPhone" height="150" id="phone">
+                    <h4>My iPhone</h4></li>
+            </ul>
+        </section>
+
+        <section id="chargeOver">
+            <div>
+                <img src="images/charger.png" alt="iPhone Charger" height="300">
+                <p>This is my charger. I carry it with me because I do not want the battery to die while I am on campus.</p>
+            </div>
+            <div id="closeCharge">&otimes;</div>
+        </section>
+
+
+        <section id="glowOver">
+            <div>
+                <img src="images/glowtape.png" alt="glowtape" height="300">
+                <p>This is a roll of glowtape. I use it when I Stage Manage to spike the set.</p>
+            </div>
+            <div id="closeTape">&otimes;</div>
+        </section>
+
+        <section id="phoneOver">
+            <div>
+                <img src="images/phone.png" alt="iPhone" height="300">
+                <p>This is my phone. I use it to connect to the world.</p>
+            </div>
+            <div id="closePhone">&otimes;</div>
+        </section>
+
+    </nav>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer"><img src="images/html-valid.png" alt="html validation" width="50"></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/css-valid.png" alt="css validation" width="50"></a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+<!--END BODY-->
