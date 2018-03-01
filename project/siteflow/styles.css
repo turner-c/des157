@@ -1,0 +1,21 @@
+
+body {
+  margin: auto;
+  width: 90%;
+  font-family: 'Overpass Mono', monospace;
+  background-color: #65737e;
+  color: #ffffff;
+}
+
+.siteflow{
+margin-left: 12%;
+margin-right: 12%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    right: 0px;
+    text-align: right;
+  }
