@@ -1,0 +1,36 @@
+
+body {
+  margin: auto;
+  width: 90%;
+  font-family: 'Overpass Mono', monospace;
+  background-color: #65737e;
+  color: #ffffff;
+}
+
+p{
+  margin-right: 8%;
+}
+
+figure{
+  float: left;
+  clear: right;
+}
+
+
+h2{
+  clear: both;
+}
+
+figcaption{
+  float: right;
+  clear: left;
+  width: 30%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    right: 0px;
+    text-align: right;
+  }
