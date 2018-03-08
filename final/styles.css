@@ -1,0 +1,70 @@
+body {
+  background-color: #ffc500;
+}
+
+header {
+  background-color: #31698a;
+  width: 100%;
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 2%;
+  position: fixed;
+}
+
+nav {
+  float: left;
+}
+
+span {
+  display: block;
+  text-align: left;
+  padding-left: 4%;
+}
+
+main {
+  margin: 2%;
+}
+
+h1, h2, .graphicHeadings {
+  font-family: 'Kalam', cursive;
+}
+
+h1 {
+  margin: 0px;
+  font-style: 700;
+  color: white;
+}
+
+p {
+  font-family: 'ABeeZee', sans-serif;
+  margin-left: 3%;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px #31698a;
+  margin-top: 2%;
+}
+
+.graphicHeadings {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.graphicDescriptions {
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #31698a;
+}
